@@ -47,7 +47,7 @@ We provide **four models** of varying scales for robust relative depth estimatio
 
 ```bash
 git clone https://github.com/DepthAnything/Depth-Anything-V2
-cd Depth-Anything-V2
+cd Depth_Anything_V2
 pip install -r requirements.txt
 ```
 
@@ -87,7 +87,7 @@ If you do not want to clone this repository, you can also load our models throug
 from transformers import pipeline
 from PIL import Image
 
-pipe = pipeline(task="depth-estimation", model="depth-anything/Depth-Anything-V2-Small-hf")
+pipe = pipeline(task="depth-estimation", model="depth-anything/Depth_Anything_V2-Small-hf")
 image = Image.open('your/image/path')
 depth = pipe(image)["depth"]
 ```

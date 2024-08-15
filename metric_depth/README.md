@@ -23,7 +23,7 @@ We provide **six metric depth models** of three scales for indoor and outdoor sc
 
 ```bash
 git clone https://github.com/DepthAnything/Depth-Anything-V2
-cd Depth-Anything-V2/metric_depth
+cd Depth_Anything_V2/metric_depth
 pip install -r requirements.txt
 ```
 
